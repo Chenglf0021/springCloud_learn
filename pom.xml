@@ -16,6 +16,7 @@
         <module>provider02</module>
         <module>config-center</module>
         <module>base-api</module>
+        <module>eureka-zuul</module>
     </modules>
     <parent>
     <groupId>org.springframework.boot</groupId>

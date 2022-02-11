@@ -1,0 +1,19 @@
+server:
+  port: 9090
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Chenglf0021/springcloud_config.git
+          default-label: master
+          username: 1976411121@qq.com
+          password: Clf@2022
+  application:
+    name: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka02.com:8762/eureka/

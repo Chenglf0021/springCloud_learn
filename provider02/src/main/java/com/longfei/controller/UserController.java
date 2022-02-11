@@ -20,6 +20,7 @@ public class UserController implements UserAPI {
     @Override
     @GetMapping("/testFeign1")
     public String testFeign1() {
+        int  a=1/0;
         String message = "我是：" + port;
         return message;
     }

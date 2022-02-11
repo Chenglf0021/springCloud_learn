@@ -9,4 +9,5 @@ package com.longfei.api;
  **/
 public interface UserAPI {
     public String testFeign1();
+    
 }
